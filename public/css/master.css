@@ -1,12 +1,24 @@
-h1 {
-  position: center center;
-  color: red;
-}
-
-projectCard {
-
+html {
+  height: 100%;
+  width: auto;
 }
 
 body {
-  background-image: url("bg.jpg");
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.ipad {
+  max-width: 300px;
+  max-height: auto;
+}
+
+.iphone {
+  max-width: 200px;
+  height: auto;
 }
