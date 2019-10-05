@@ -13,6 +13,11 @@ body {
   overflow: hidden;
 }
 
+h1 {
+  font-family: 'Montserrat';
+  font-style: normal;
+}
+
 .ipad {
   max-width: 300px;
   max-height: auto;
