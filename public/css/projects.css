@@ -1,0 +1,11 @@
+li {
+  /* -moz-border-radius: 15px; //for mozilla support
+  -webkit-border-radius: 15px; //for chrome support
+  border-radius: 15px; */
+  list-style: none;
+  background-color: #ccc;
+  /* padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px; */
+}

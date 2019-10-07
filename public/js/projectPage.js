@@ -1,5 +1,3 @@
-var document;
-
 listdata = {
   "Deck" : {
     "description" : "A Note taking application that aims to use NLP and Machine Learning to conver notes into reincfcement learning questions specifically for students",
@@ -45,13 +43,20 @@ listdata = {
 }
 
 function populateList(name, data) {
-  const ulElement = document.getElementsByClassName(name)
+  const ulElement = document.querySelector(".projectList")
   for (var project in data) {
-    if (object.hasOwnProperty(project)) {
-      var listItem = ulElement.createElement("LI")
-      listItem.innerHTML = project
-      var desc = listItem.createElement("P")
-      desc.innerHTML = data[project]["description"]
+    if (data.hasOwnProperty(project)) {
+      //create List item
+      var listItem = document.createElement("LI")
+      listItem.textContent = project
+      ulElement.appendChild(listItem)
+      //create paragraph item
+      var desc = document.createElement("P")
+      desc.textContent = data[project]["description"]
+      listItem.appendChild(desc)
+      //create info Container
     }
   }
 }
+
+populateList("projectList", listdata)
