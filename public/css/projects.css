@@ -6,17 +6,25 @@ li {
   background-color: #ccc;
   height: 200px;
   text-align: center;
+  flex: 0 1 calc(25% - 1em);
   /* padding-top: 20px;
   padding-left: 20px;
   padding-right: 20px;
   padding-bottom: 20px; */
 }
 
-ul {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.cardInfo {
+
 }
 
-.cardInfo {
-  
+.cardName {
+  font-family: 'Montserrat'
+  font-style: normal;
+  font-size: 150%;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

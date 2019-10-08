@@ -57,8 +57,9 @@ function populateList(name, data) {
       ulElement.appendChild(listItem)
       //create info Container
       var info = document.createElement("DIV")
-      info.class = "cardInfo"
+      info.classList.add("cardInfo")
       var name = document.createElement("P")
+      name.classList.add("cardName")
 
       listItem.appendChild(info)
 
