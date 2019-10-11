@@ -28,7 +28,7 @@ listdata = {
     "technologies" : ["Java", "Swing"],
     "startDate" : "",
     "endDate" : "",
-    "imgSrc" : ""
+    "imgSrc" : "/img/animator.png"
   },
 
   "Mini-Games" : {
