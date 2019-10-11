@@ -1,0 +1,49 @@
+{
+  "Deck (WIP)" : {
+    "description" : "A Note taking application that aims to use NLP and Machine Learning to convert notes into reinforcement learning questions specifically for students",
+    "technologies" : ["NLP", "Swift", "ML", "RNN", "Python"],
+    "startDate" : "",
+    "enddate" : "",
+    "imgSrc" : ""
+  },
+
+  "SneakAssist (WIP)" : {
+    "description" : "A subscription based application that provides support for limited edition sneaker releases.",
+    "technologies" : ["HTML", "CSS", "JS", "MongoDB", "Python"],
+    "startDate" : "",
+    "endDate" : "",
+    "imgSrc" : ""
+  },
+
+  "LinkedIn Scraper" : {
+    "description" : "A script (ported to Java) to scrape LinkedIn for the purpose of gathering data about alumni at Northeastern.",
+    "technologies" : ["Java", "JavaFX", "Selenium"],
+    "startDate" : "",
+    "endDate" : "",
+    "imgSrc" : "/img/Linked-In Scraper.png"
+  },
+
+  "Animator" : {
+    "description" : "A simple animation viewer and editor to reinforce OOD principles. Built for CS3500: Object Oriented Design.",
+    "technologies" : ["Java", "Swing"],
+    "startDate" : "",
+    "endDate" : "",
+    "imgSrc" : "/img/animator.png"
+  },
+
+  "Mini-Games" : {
+    "description" : "A collection of minigames made for CS2550: Fundamentals of Computer Science II",
+    "technologies" : ["Java"],
+    "startDate" : "",
+    "endDate" : "",
+    "imgSrc" : "/img/MiniGames.png"
+  },
+
+  "Music Player" : {
+    "description" : "A musicplayer built in Racket using the big-bang library. This was my first ever programming experience; for the class CS2500: Fundamentals of Computer Science I",
+    "technologies" : ["Racket"],
+    "startDate" : "",
+    "endDate" : "",
+    "imgSrc" : "/img/MusicPlayer.png"
+  }
+}

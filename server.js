@@ -25,6 +25,7 @@
 var express = require('express')
 var app = express()
 
+app.use(express.static('public/html', {extensions : ['html']}))
 app.use(express.static('public', {extensions : ['html']}))
 
 var server = app.listen(8000, function () {
