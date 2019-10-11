@@ -79,6 +79,12 @@ function createGrid(data, maxCol, parent) {
     desc.classList.add("subtitle")
     article.appendChild(desc)
 
+    if (data[project]["imgSrc"] != "") { // if Image available
+      var img = document.createElement("IMG")
+      img.src = data[project]["imgSrc"]
+      info.appendChild(img)
+    }
+
     tileparent.appendChild(article)
     currentRow.appendChild(tileparent)
     row_count++
@@ -99,13 +105,6 @@ function populateList(name, data) {
       //
       // listItem.appendChild(info)
       //
-      // if (data[project]["imgSrc"] != "") { // if Image available
-      //   var img = document.createElement("IMG")
-      //   img.src = data[project]["imgSrc"]
-      //   info.appendChild(img)
-      // } else {
-      //   //If no Image Available
-      // }
       //
       // name.textContent = project
       // info.appendChild(name)
