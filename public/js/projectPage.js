@@ -31,7 +31,7 @@ function createGrid(data, maxCol, parent) {
     tileparent.classList.add("tile", "is-parent")
     var article = document.createElement("ARTICLE")
     article.classList.add("tile", "is-child", "box")
-    article.addEventLstener("click", showDialog)
+    article.addEventListener("click", showDialog)
 
     var name = document.createElement("P")
     name.textContent = project
