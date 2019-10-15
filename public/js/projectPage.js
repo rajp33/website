@@ -34,6 +34,7 @@ function createGrid(data, maxCol, parent) {
     article.addEventListener("click", showDialog)
 
     var name = document.createElement("P")
+    name.classList.add("name")
     name.textContent = project
     article.appendChild(name)
 
