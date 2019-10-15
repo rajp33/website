@@ -1,0 +1,19 @@
+
+h1 {
+  padding: 5% 5%;
+}
+
+.desc {
+  padding: 10% 10%;
+}
+
+img {
+  position: relative;
+  left: calc(25% - 40px);
+  padding-top: 30%;
+  padding-left: 10%;
+  padding-right: 10%;
+  transform: rotate(90deg);
+  height: 100%;
+  width: 80%;
+}

@@ -14,6 +14,10 @@ function getJSON(path) {
      return JSON.parse(request.responseText);
 }
 
+function showDialog(event) {
+
+}
+
 function createGrid(data, maxCol, parent) {
   var row_count = 0
   //for each data create tile
@@ -27,6 +31,7 @@ function createGrid(data, maxCol, parent) {
     tileparent.classList.add("tile", "is-parent")
     var article = document.createElement("ARTICLE")
     article.classList.add("tile", "is-child", "box")
+    article.addEventLstener("click", showDialog)
 
     var name = document.createElement("P")
     name.textContent = project
