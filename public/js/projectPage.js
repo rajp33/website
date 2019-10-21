@@ -15,7 +15,7 @@ function getJSON(path) {
 }
 
 function showDialog(event) {
-
+  //implement
 }
 
 function createGrid(data, maxCol, parent) {
@@ -31,7 +31,7 @@ function createGrid(data, maxCol, parent) {
     tileparent.classList.add("tile", "is-parent")
     var article = document.createElement("ARTICLE")
     article.classList.add("tile", "is-child", "box")
-    article.addEventListener("click", showDialog)
+    article.onClick = showDialog
 
     var name = document.createElement("P")
     name.classList.add("name")

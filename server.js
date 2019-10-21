@@ -24,6 +24,7 @@
 
 var express = require('express')
 var app = express()
+var micromodal = require('micromodal')
 
 app.use(express.static('public/html', {extensions : ['html']}))
 app.use(express.static('public', {extensions : ['html']}))

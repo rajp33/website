@@ -42,3 +42,8 @@ body {
   font-size: 20px;
   font-weight: bold;
 }
+
+.github {
+  width: 50px;
+  height: auto;
+}
