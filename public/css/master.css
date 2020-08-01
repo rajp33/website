@@ -35,7 +35,6 @@ h1 {
   top: 0px;
   left: 10px;
   max-width: 300px;
-  max-height: auto;
   transition: all 0.5s ease;
 }
 
@@ -46,7 +45,7 @@ h1 {
 }
 
 .iphoneImage {
-  text-align:
+  text-align: center;
   padding-right: 2vw;
   padding-bottom: 2vw;
   position: absolute;

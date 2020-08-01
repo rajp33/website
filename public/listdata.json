@@ -1,18 +1,18 @@
 {
-  "Deck (WIP)" : {
-    "description" : "A Note taking application that aims to use NLP and Machine Learning to convert notes into reinforcement learning questions specifically for students",
-    "technologies" : ["NLP", "Swift", "ML", "RNN", "Python"],
+  "Equityblue Dashboard" : {
+    "description" : "A dashboard for managing memberships for equityblue, inc. Web-app built using React, API using HapiJS",
+    "technologies" : ["AWS", "Stripe", "HapiJS", "React", "Javascript"],
     "startDate" : "",
     "enddate" : "",
-    "imgSrc" : ""
+    "imgSrc" : "../img/equityblue.png"
   },
 
-  "SneakAssist (WIP)" : {
-    "description" : "A subscription based application that provides support for limited edition sneaker releases.",
-    "technologies" : ["HTML", "CSS", "JS", "MongoDB", "Python"],
+  "YogiCup Stat Tracker" : {
+    "description" : "A web application to collect/monitor stats for an annual 3x3 Basketball Tournament.",
+    "technologies" : ["Angular", "Spring", "Java", "TypeScript", "Heroku"],
     "startDate" : "",
     "endDate" : "",
-    "imgSrc" : ""
+    "imgSrc" : "../img/yogicup.png"
   },
 
   "LinkedIn Scraper" : {
@@ -20,7 +20,7 @@
     "technologies" : ["Java", "JavaFX", "Selenium"],
     "startDate" : "",
     "endDate" : "",
-    "imgSrc" : "/img/Linked-In Scraper.png"
+    "imgSrc" : "../img/Linked-In Scraper.png"
   },
 
   "Animator" : {
@@ -28,7 +28,7 @@
     "technologies" : ["Java", "Swing"],
     "startDate" : "",
     "endDate" : "",
-    "imgSrc" : "/img/animator.png"
+    "imgSrc" : "../img/animator.png"
   },
 
   "Mini-Games" : {
@@ -36,7 +36,7 @@
     "technologies" : ["Java"],
     "startDate" : "",
     "endDate" : "",
-    "imgSrc" : "/img/MiniGames.png"
+    "imgSrc" : "../img/MiniGames.png"
   },
 
   "Music Player" : {
@@ -44,6 +44,6 @@
     "technologies" : ["Racket"],
     "startDate" : "",
     "endDate" : "",
-    "imgSrc" : "/img/MusicPlayer.png"
+    "imgSrc" : "../img/MusicPlayer.png"
   }
 }
